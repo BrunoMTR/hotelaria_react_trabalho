@@ -1,0 +1,97 @@
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.input-botao{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+#input{
+    width: 247px;
+    height: 55px;
+    border: none;
+    background: none;
+    padding-left: 10px;
+
+}
+#botao{
+
+    width: 50px;
+    height: 58px;
+    border: none;
+    background: none;
+
+
+}
+#logo{
+    width: 96px;
+    height: 18.75px;
+    padding: 50px;
+}
+/*/////////////////////////////////////////*/
+.painel-resultados{
+    display: grid;
+    grid-template-areas: 'cartao cartao cartao' ;
+    margin-left: 20px;
+    padding: 0;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.localizacao{
+    margin-left: 20px;
+
+}
+.cartao{
+    width: 355px;
+    height: 254px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    display: inline-block;
+    grid-area: 'cartao';
+    padding: 0;
+
+
+}
+.pontuacao-cartao{
+    color:gray;
+}
+.tipo-cartao{
+    color: gray;
+}
+.titulo-cartao{
+    font-weight: bold;
+}
+.estrelinha{
+    width: 15.5px;
+    height: 15.5px;
+}
+.apartamento-imagem{
+    width: 355px;
+    height: 254px;
+    border-radius: 24px;
+    background-color: bisque;
+}
+.estrelinha-pontuacao-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.estrelinha-pontuacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
